@@ -13,7 +13,7 @@ Connections.csv - Contains information for each synapse in the simulation. Creat
 - Distance: float representing the distance (um) from the synapse to the soma
 - Conductance: the weight of the synapse (already scaled by distance)
 - Type: what part of the cell the synapse is on (soma, dend, apic)
-- Name: the full string that NEURON associates with the postsynaptic segment. 
+- Name: the full string that NEURON associates with the postsynaptic segment.
 - Source Population: the node population that the presynaptic node is a member of (exc, prox_inh, dist_inh)
 - Release Probability: release probability for the synapse
 
@@ -30,3 +30,5 @@ Segments.csv - contains information about every segment in the morphology
 show_results - used to plot and print various aspects of the simulation **CAN REMOVE IF NOT NEEDED**
 
 synapses.py- used to set the correct parameters for the synapses during the run step
+
+Edit for test
